@@ -2,20 +2,15 @@ package com.creadri.lazyroad;
 
 import com.creadri.lazyroad.commands.LazyMinerCommand;
 import com.creadri.lazyroad.commands.roadCommand;
-import com.creadri.util.ColumnChat;
 import com.creadri.util.FileManager;
-import com.creadri.util.Messages;
 import java.io.*;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -47,7 +42,6 @@ public class LazyRoad extends JavaPlugin {
     // LazyMiner
     private int checkIds[] = null;
     // config and message related
-    public static Messages messages;
     public static final Logger log = Logger.getLogger("Minecraft");
 
     /**
