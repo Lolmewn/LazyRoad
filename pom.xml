@@ -11,6 +11,13 @@
     <name>LazyRoad</name>
     <url>http://dev.bukkit.org/server-mods/lazyroad/</url>
 
+    <repositories>
+        <repository>
+            <id>bukkit-repo</id>
+            <url>http://repo.bukkit.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+    
     <dependencies>
         <dependency>
             <groupId>org.bukkit</groupId>
@@ -66,7 +73,7 @@
                 </executions>
             </plugin>
 
-        <!-- Compile plugin -->
+            <!-- Compile plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
