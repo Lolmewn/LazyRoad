@@ -1,5 +1,5 @@
 main: com.creadri.lazyroad.LazyRoad
-version: ${project.version}
+version: maven-version-number-jenkins-build-number
 name: LazyRoad
 description: Make roads as you walk
 author: adreide
